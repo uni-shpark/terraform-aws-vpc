@@ -4,7 +4,7 @@
 
 module "label" {
   source  = "app.terraform.io/uni-shpark/label/aws"
-  version = "1.0.0"
+  version = "1.0.1"
   namespace  = var.namespace
   name       = var.name
   stage      = var.stage
